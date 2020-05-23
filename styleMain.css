@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;}
+    body {
+    display: flex;
+    justify-content: center;
+    font-family:'Century Gothic';}
+    #block {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 500px;
+    background: grey;
+    }
+    #navigimi {
+    width: auto;
+    height: 70px;
+    }
+    #navigimi {
+    display: flex;
+    flex-direction: row;
+    }
+    .nav{
+    display: flex;
+    width: 60px;
+    height: auto;
+    font-family: 'Raleway';
+  }
+    #nav-start {
+    flex: 1;
+    justify-content:flex-start
+    }
+    #nav-end { 
+    flex: 1;
+    justify-content:flex-end
+    }
+    #navigimi img {
+    display: flex;
+    max-width: 200px;
+    }
+    #navigimi ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    }
+    #navigimi ul>li>a{
+    display: inline-block;
+    text-decoration: none;
+    vertical-align: top;
+    font-size: 15px;
+    text-size-adjust: 18;
+    color: white;
+    font-weight: 500;
+    padding: 9px 30px;
+    border: 5px solid;
+    border-radius: 50px ;
+    background-color: burlywood;
+    transition: 1s ease;
+    }
+    #navigimi ul>li {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    }
+     #navigimi ul>li>:hover{
+     background-color: bisque;
+     color:  green;
+    }
+    #navigimi ul>li.active a {
+    background-color: white;
+    color: green;
+    }
